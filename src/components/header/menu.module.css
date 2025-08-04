@@ -1,0 +1,14 @@
+.menu {
+    display: flex;
+    gap: 28;
+    align-items: center;
+}
+
+.menuItem {
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+.menuItem:hover {
+    color: #1531ff;
+}
