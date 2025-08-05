@@ -1,0 +1,21 @@
+.trustedSection {
+    background-color: white;
+    padding: 20px;
+    margin-top: 120px;
+}
+
+.heading {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #BDBDBD;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+    margin-top: -8px;
+}
+
+.itemsSection {
+    display: flex;
+    justify-content: space-between;
+}

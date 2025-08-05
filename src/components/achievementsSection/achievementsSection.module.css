@@ -1,0 +1,24 @@
+.achievements {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  color: white;
+}
+
+.divWithQuantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.divWithName {
+  font-size: 28px;
+  margin-top: 10px;
+  font-weight: 500;
+  line-height: 120%;
+}
