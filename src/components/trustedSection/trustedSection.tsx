@@ -13,7 +13,7 @@ export default function TrustedSection({ heading, brands }: TrustedSectionProps)
         <div className={styles.brandsSection}>
             {brands.map((brand, key) => {
                 return <div key={key} className={styles.divWithBrand}>
-                    <img src={brand} alt=""  />
+                    <img src={brand} alt="" />
                 </div>
             })}
         </div>

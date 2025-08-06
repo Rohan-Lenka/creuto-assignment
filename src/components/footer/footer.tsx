@@ -1,5 +1,5 @@
 import Instagram from "@/icons/instagram"
-import Bullet from "../bullet/bullet"
+import Bullet from "../ui/bullet/bullet"
 import styles from "./footer.module.css"
 import LinkedIn from "@/icons/linkedIn"
 import Facebook from "@/icons/facebook"
@@ -84,7 +84,6 @@ export default function Footer({ company, description, services, locations, cont
 
         <div className={styles.bottomPart}>
 
-            {/* left column */}
             <div className={styles.bottomPartLeftColumn}>
                 <div className={styles.divWithContactsHeading}>
                     <span style={{ marginRight: "4px" }}>
@@ -104,7 +103,6 @@ export default function Footer({ company, description, services, locations, cont
                 </div>
             </div>
 
-            {/* middle column */}
             <div className={styles.bottomPartMiddleColumn}>
                 <div>
                     © 2024 {company} All Rights Reserved
@@ -115,7 +113,6 @@ export default function Footer({ company, description, services, locations, cont
                 </div>
             </div>
 
-            {/* right column */}
             <div className={styles.bottomPartRightColumn}>
                 <div className={styles.divWithSocialsHeading}>
                     <span style={{ marginRight: "4px" }}>

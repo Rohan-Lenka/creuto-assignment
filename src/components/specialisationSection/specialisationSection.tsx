@@ -1,4 +1,4 @@
-import Bullet from "../bullet/bullet"
+import Bullet from "../ui/bullet/bullet"
 import styles from "./specialisationSection.module.css"
 
 interface SpecialisationSectionProps {

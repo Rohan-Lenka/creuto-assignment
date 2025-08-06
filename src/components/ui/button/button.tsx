@@ -5,7 +5,7 @@ import styles from "./button.module.css"
 
 interface ButtonProps {
     text: string
-    type: "header-primary" | "header-secondary" | "primary" | "secondary"    
+    type: "header-primary" | "header-secondary" | "primary" | "secondary"
     startIcon?: ReactNode
     endIcon?: ReactNode
     onClick?: () => void

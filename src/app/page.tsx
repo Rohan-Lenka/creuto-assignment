@@ -7,10 +7,8 @@ import Trophy from "@/icons/trophy";
 import UserGroup from "@/icons/userGroup";
 import Desktop from "@/icons/desktop";
 import AwardsSection from "@/components/awardsSection/awardsSection";
-import Bullet from "@/components/bullet/bullet";
 import SpecialisationSection from "@/components/specialisationSection/specialisationSection";
 import WorkSection from "@/components/workSection/workSection";
-import PaperClip from "@/icons/paperClip";
 import ServiceSection from "@/components/serviceSection/serviceSection";
 import Footer from "@/components/footer/footer";
 
@@ -62,7 +60,7 @@ export default function Home() {
       <SpecialisationSection
         introText="INDUSTRIES"
         heading="Industries We Specialise In."
-        description="Explore our comprehensive suite of solutions catering to your needs. From software development to digital transformation, we're here to drive your success."
+        description="Explore our comprehensive suite of solutions catering to your needs. From software development to digital transformation, we&apos;re here to drive your success."
         specialisations={[
           {
             imageSrc: "https://creuto.com/img/industries/health.webp",
@@ -114,7 +112,7 @@ export default function Home() {
       />
       <Footer
         company="Creuto"
-        description="We don’t just aim to fit in – we strive to stand out. Experience the perfect blend of innovation, excellence, and trust that makes us truly unforgettable. Discover the difference with Creuto."
+        description="We don&apos;t just aim to fit in - we strive to stand out. Experience the perfect blend of innovation, excellence, and trust that makes us truly unforgettable. Discover the difference with Creuto."
         services={[
           "Custom Software Development",
           "Web App Development",
@@ -147,10 +145,10 @@ export default function Home() {
         ]}
         contacts={["+91 760 884 4995", "+91 982 737 7339"]}
         socials={{
-          instagram: "https://www.google.com/",
-          facebook: "https://www.google.com/",
-          linkedIn: "https://www.google.com/",
-          twitter: "https://www.google.com/",
+          instagram: "https://www.instagram.com/",
+          facebook: "https://www.facebook.com/",
+          linkedIn: "https://www.linkedIn.com/",
+          twitter: "https://www.twitter.com/",
         }}
       />
     </div>

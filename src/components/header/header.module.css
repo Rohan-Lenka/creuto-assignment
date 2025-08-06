@@ -1,18 +1,18 @@
 .header {
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .headerButtonsDiv {
-    display: flex;
-    gap: 12;
-    margin-right: 28px;
+  display: flex;
+  gap: 12;
+  margin-right: 28px;
 }

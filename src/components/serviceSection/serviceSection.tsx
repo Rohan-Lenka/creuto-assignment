@@ -1,4 +1,4 @@
-import Bullet from "../bullet/bullet"
+import Bullet from "../ui/bullet/bullet"
 import styles from "./serviceSection.module.css"
 
 interface ServiceSectionProps {
@@ -11,7 +11,7 @@ export default function ServiceSection({ services }: ServiceSectionProps) {
             return <div className={styles.divWithService} key={key} >
                 <span>
                     <Bullet />
-                </span> 
+                </span>
                 <span className={styles.service}>
                     {service}
                 </span>

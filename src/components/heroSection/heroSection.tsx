@@ -1,5 +1,5 @@
 import Arrow from "@/icons/arrow"
-import Button from "../button/button"
+import Button from "../ui/button/button"
 import styles from "./heroSection.module.css"
 
 export default function HeroSection() {

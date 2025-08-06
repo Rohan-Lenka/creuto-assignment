@@ -1,0 +1,45 @@
+.header-primary,
+.header-secondary,
+.primary,
+.secondary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.header-primary,
+.header-secondary {
+  padding: 10px 16px;
+  border: 1px solid #1531ff;
+}
+
+.primary,
+.secondary {
+  padding: 14px 28px;
+  border: 1px solid white;
+}
+
+.header-primary {
+  background-color: #1531ff;
+  color: white;
+}
+
+.header-secondary {
+  background-color: white;
+  color: #1531ff;
+}
+
+.primary {
+  background-color: white;
+  color: black;
+}
+
+.secondary {
+  background-color: black;
+  color: white;
+}

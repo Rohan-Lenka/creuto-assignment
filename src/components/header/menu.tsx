@@ -4,7 +4,7 @@ interface MenuProps {
     items: string[]
 }
 
-export default function Menu({items}: MenuProps) {
+export default function Menu({ items }: MenuProps) {
     return <div className={styles.menu}>
         {items.map((item, key) => {
             return <div key={key} className={styles.menuItem}>
