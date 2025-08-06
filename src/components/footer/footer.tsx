@@ -1,5 +1,9 @@
+import Instagram from "@/icons/instagram"
 import Bullet from "../bullet/bullet"
 import styles from "./footer.module.css"
+import LinkedIn from "@/icons/linkedIn"
+import Facebook from "@/icons/facebook"
+import Twitter from "@/icons/twitter"
 
 interface FooterProps {
     company: string
@@ -9,8 +13,8 @@ interface FooterProps {
         city: string
         address: string
     }[]
-    contacts?: string[]
-    socials?: {
+    contacts: string[]
+    socials: {
         instagram: string
         linkedIn: string
         facebook: string
@@ -79,6 +83,63 @@ export default function Footer({ company, description, services, locations, cont
         </div>
 
         <div className={styles.bottomPart}>
+
+            {/* left column */}
+            <div className={styles.bottomPartLeftColumn}>
+                <div className={styles.divWithContactsHeading}>
+                    <span style={{ marginRight: "4px" }}>
+                        <Bullet />
+                    </span>
+                    <span className={styles.contactsHeading}>
+                        CONTACTS
+                    </span>
+                </div>
+
+                <div className={styles.divWithContacts}>
+                    {contacts?.map((contact, key) => {
+                        return <div key={key} className={styles.contact} >
+                            {contact}
+                        </div>
+                    })}
+                </div>
+            </div>
+
+            {/* middle column */}
+            <div className={styles.bottomPartMiddleColumn}>
+                <div>
+                    © 2024 {company} All Rights Reserved
+                </div>
+                <div>
+                    <span>Terms & Conditions</span>
+                    <span style={{ paddingLeft: "16px" }}>Privacy Policy</span>
+                </div>
+            </div>
+
+            {/* right column */}
+            <div className={styles.bottomPartRightColumn}>
+                <div className={styles.divWithSocialsHeading}>
+                    <span style={{ marginRight: "4px" }}>
+                        <Bullet />
+                    </span>
+                    <span className={styles.socialsHeading}>
+                        SOCIALS
+                    </span>
+                </div>
+                <div className={styles.divWithSocials}>
+                    <a href={socials.linkedIn} target="_blank">
+                        <LinkedIn />
+                    </a>
+                    <a href={socials.instagram} target="_blank">
+                        <Instagram />
+                    </a>
+                    <a href={socials.facebook} target="_blank">
+                        <Facebook />
+                    </a>
+                    <a href={socials.twitter} target="_blank">
+                        <Twitter />
+                    </a>
+                </div>
+            </div>
 
         </div>
 

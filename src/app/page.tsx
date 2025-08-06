@@ -17,23 +17,17 @@ import Footer from "@/components/footer/footer";
 export default function Home() {
   return (
     <div className={styles.home}>
-      {/* <Button text="Get in Touch" type="header-primary"/>
-    <Button text="Contact us" type="header-secondary"/> */}
-      {/* <Button text="Free Consultation" type="primary"/> */}
-      {/* <Button text="Portfolio" type="secondary" endIcon={<Arrow />}/> */}
       <Header />
       <HeroSection />
       <TrustedSection
         heading="trusted by leading brands and companies like"
-        items={[
-          "Binimise",
-          "Skill Odisha Mission",
-          "Y Hotels",
-          "Skoda",
-          "Jupion",
-          "VIT-AP",
-          "Odion",
-          "VSB",
+        brands={[
+          "/trustedBrands/brand1.png",
+          "/trustedBrands/brand3.png",
+          "/trustedBrands/brand4.png",
+          "/trustedBrands/brand6.png",
+          "/trustedBrands/brand7.png",
+          "/trustedBrands/brand8.png",
         ]}
       />
       <AchievementsSection
@@ -57,12 +51,12 @@ export default function Home() {
       />
       <AwardsSection
         awards={[
-          "Award 1",
-          "Award 2",
-          "Award 3",
-          "Award 4",
-          "Award 5",
-          "Award 6",
+          "/awards/award1.png",
+          "/awards/award2.png",
+          "/awards/award3.png",
+          "/awards/award4.png",
+          "/awards/award5.png",
+          "/awards/award6.png",
         ]}
       />
       <SpecialisationSection
@@ -138,17 +132,26 @@ export default function Home() {
           },
           {
             city: "Delhi",
-            address: "2TF, Satyam Complex 2, Alpha-II, Greater Noida, Uttar Pradesh",
+            address:
+              "2TF, Satyam Complex 2, Alpha-II, Greater Noida, Uttar Pradesh",
           },
           {
             city: "Bangalore",
-            address: "P- 829, 7th Cross, 11th Main Rd, ITI Layout, Bengaluru, 560068",
+            address:
+              "P- 829, 7th Cross, 11th Main Rd, ITI Layout, Bengaluru, 560068",
           },
           {
             city: "Australia",
             address: "Level 4, 11 York Street, Sydney, NSW-2000",
           },
         ]}
+        contacts={["+91 760 884 4995", "+91 982 737 7339"]}
+        socials={{
+          instagram: "https://www.google.com/",
+          facebook: "https://www.google.com/",
+          linkedIn: "https://www.google.com/",
+          twitter: "https://www.google.com/",
+        }}
       />
     </div>
   );

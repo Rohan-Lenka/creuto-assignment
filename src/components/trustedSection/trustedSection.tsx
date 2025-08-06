@@ -2,18 +2,18 @@ import styles from "./trustedSection.module.css"
 
 interface TrustedSectionProps {
     heading: string
-    items: string[]
+    brands: string[]
 }
 
-export default function TrustedSection({ heading, items }: TrustedSectionProps) {
+export default function TrustedSection({ heading, brands }: TrustedSectionProps) {
     return <div className={styles.trustedSection}>
         <p className={styles.heading}>
             {heading}
         </p>
-        <div className={styles.itemsSection}>
-            {items.map((item, key) => {
-                return <div key={key}>
-                    {item}
+        <div className={styles.brandsSection}>
+            {brands.map((brand, key) => {
+                return <div key={key} className={styles.divWithBrand}>
+                    <img src={brand} alt=""  />
                 </div>
             })}
         </div>

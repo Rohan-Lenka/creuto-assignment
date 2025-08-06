@@ -94,4 +94,61 @@
 
 /* bottom part */
 .bottomPart {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+/* bottom part left column */
+.bottomPartLeftColumn {
+  
+}
+.divWithContactsHeading {
+  margin-bottom: 16px;
+}
+.contactsHeading {
+  color: #6b6b6b;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 120%;
+}
+.divWithContacts {
+  display: flex;
+  flex-direction: column;
+  gap: 8;
+}
+.contact {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+/* bottom part middle column */
+.bottomPartMiddleColumn {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  display: flex;
+  flex-direction: column;
+  gap: 8;
+}
+
+/* bottom part right column */
+.bottomPartRightColumn {
+}
+.divWithSocialsHeading {
+ margin-bottom: 16px;
+}
+.socialsHeading {
+  color: #6b6b6b;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 120%;
+}
+.divWithSocials {
+  display: flex;
+  gap: 24;
 }

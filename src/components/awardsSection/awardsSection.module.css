@@ -14,10 +14,12 @@
     display: flex;
     margin-top: 24px;
     justify-content: space-around;
+    align-items: center;
 }
 
 .divWithAward {
-    padding: 48px;
+    width: 180px;
+    height: 180px;
     background-color: white;
     color: black;
     border-radius: 8px;
