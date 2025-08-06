@@ -1,0 +1,21 @@
+.divWithServices {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 120px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.divWithService {
+    display: flex;
+    align-items: center;
+    gap: 12;
+}
+
+.service {
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 120%;
+    color: white;
+}

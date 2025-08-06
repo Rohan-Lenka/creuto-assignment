@@ -11,6 +11,8 @@ import Bullet from "@/components/bullet/bullet";
 import SpecialisationSection from "@/components/specialisationSection/specialisationSection";
 import WorkSection from "@/components/workSection/workSection";
 import PaperClip from "@/icons/paperClip";
+import ServiceSection from "@/components/serviceSection/serviceSection";
+import Footer from "@/components/footer/footer";
 
 export default function Home() {
   return (
@@ -107,7 +109,47 @@ export default function Home() {
               "After engaging in a detailed conversation to thoroughly comprehend your needs, we do an in-depth exploration of the market segment which involves competitor analysis, understanding the key deliverables & emphasising the USP of your project.",
           },
         ]}
-      />      
+      />
+      <ServiceSection
+        services={[
+          "Design",
+          "Custom Software",
+          "Artificial Intelligence",
+          "App Developement",
+        ]}
+      />
+      <Footer
+        company="Creuto"
+        description="We don’t just aim to fit in – we strive to stand out. Experience the perfect blend of innovation, excellence, and trust that makes us truly unforgettable. Discover the difference with Creuto."
+        services={[
+          "Custom Software Development",
+          "Web App Development",
+          "UI/UX Design",
+          "Mobile App development",
+          "Devops & Cloud",
+          "QA & Automation",
+          "Data Engineering & BI",
+          "API Development & integration",
+        ]}
+        locations={[
+          {
+            city: "Bhubaneswar | HQ",
+            address: "Plot No 293, District Center, Bhubaneswar, Odisha 751016",
+          },
+          {
+            city: "Delhi",
+            address: "2TF, Satyam Complex 2, Alpha-II, Greater Noida, Uttar Pradesh",
+          },
+          {
+            city: "Bangalore",
+            address: "P- 829, 7th Cross, 11th Main Rd, ITI Layout, Bengaluru, 560068",
+          },
+          {
+            city: "Australia",
+            address: "Level 4, 11 York Street, Sydney, NSW-2000",
+          },
+        ]}
+      />
     </div>
   );
 }

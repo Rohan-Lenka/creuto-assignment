@@ -1,0 +1,97 @@
+.footer {
+  padding: 80px 80px 40px 80px;
+}
+
+
+/* top part */
+.topPart {
+  display: flex;
+  gap: 150;
+}
+
+/* top part left column */
+.topPartLeftColumn {
+  max-width: 460px;
+}
+.company {
+  font-size: 28px;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 16px;
+}
+.description {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+/* top part right column */
+.topPartRightColumn {
+}
+.divWithServicesHeading {
+  margin-bottom: 16px;
+}
+.servicesHeading {
+  color: #6b6b6b;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 120%;
+}
+.divWithServices {
+  max-height: 136px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 16;
+}
+.service {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+
+/* middle part */
+.middlePart {
+  border-top: 1px solid rgb(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgb(255, 255, 255, 0.3);
+  padding-top: 40px;
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+.divWithLocationsHeading {
+  margin-bottom: 16px;
+}
+.locationsHeading {
+  color: #6b6b6b;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 120%;
+}
+.divWithLocations {
+  display: flex;
+  gap: 32;
+}
+.divWithLocation {
+  max-width: 260px;
+}
+.divWithCity {
+  color: white;
+  font-size: 18px;
+  line-height: 120%;
+  font-weight: 400;
+}
+.divWithAddress {
+  color: #6b6b6b;
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 400;
+  margin-top: 12px;
+}
+
+
+/* bottom part */
+.bottomPart {
+}
