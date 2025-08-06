@@ -1,6 +1,6 @@
 .menu {
   display: flex;
-  gap: 28;
+  gap: 28px;
   align-items: center;
 }
 
