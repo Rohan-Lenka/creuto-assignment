@@ -10,7 +10,7 @@
 .divWithService {
     display: flex;
     align-items: center;
-    gap: 12;
+    gap: 12px;
 }
 
 .service {
